@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Video Editing Services </h1>
+        <p>Your one-stop solution for At EditMaster Studios, At EditMaster Studios, we transform your raw footage into captivating visual stories with precision and creativity. Our video editing services include professional editing, color grading, special effects, sound design, and custom branding to ensure every project is polished and tailored to your needs. Whether you're a business seeking to elevate your brand, a content creator aiming to captivate your audience, or an individual preserving cherished memories, we bring your vision to life with high-quality results. Let us help you create videos that leave a lasting impression.
+            .</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="media.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <img src="C:\Users\Mohammad Fazeel\Downloads\Web_Development_Assignment\Best-Corporate-Videography-Services.jpeg" alt="Business showcase image">
+    </section>
+        <p>Contact us via <a href="mailto:info@business.com">email</a> or follow us on <a href="#">social media</a>.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !message) {
+        alert('All fields are required!');
+        event.preventDefault();
+    }
+});
+    </script>
+    <footer>
+        <p>© 2024 [Business Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
